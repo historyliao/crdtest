@@ -1,0 +1,7 @@
+apiVersion: github.com.historyliao/v1beta1
+kind: TestResource
+metadata:
+        name: example-tr
+spec:
+        command: "echo Hello World!"
+        customProperty: "asdasd=1234"
